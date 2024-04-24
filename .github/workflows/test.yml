@@ -27,5 +27,9 @@ jobs:
 
       # - name: Run Python
       #   run: python .github/test.py
-      
-      - run: snap --version
+      - name: snapd
+        run: snap --version
+
+      - name: install drawio
+      - run: sudo snap install drawio
+
