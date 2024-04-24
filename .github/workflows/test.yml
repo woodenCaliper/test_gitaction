@@ -31,5 +31,5 @@ jobs:
         run: snap --version
 
       - name: install drawio
-      - run: sudo snap install drawio
+        run: sudo snap install drawio
 
