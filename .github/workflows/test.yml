@@ -28,4 +28,4 @@ jobs:
       - name: Run Python
         run: python .github/test.py
       
-      - run: apt -y install snapd
+      - run: snap install drawio
