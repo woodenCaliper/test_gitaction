@@ -33,3 +33,6 @@ jobs:
       - name: install drawio
         run: sudo snap install drawio
 
+      - name: export
+        run: draw.io -xf pdf -o sample.pdf sample.drawio
+
