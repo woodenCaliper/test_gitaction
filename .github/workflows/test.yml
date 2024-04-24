@@ -25,4 +25,4 @@ jobs:
         run: pip install -r .github/requirements.txt
 
       - name: Run Python
-        run: python test.py
+        run: python .github/test.py
