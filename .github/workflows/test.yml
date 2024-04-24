@@ -35,5 +35,5 @@ jobs:
 
       - name: export
         # run: drawio -V
-        run: drawio -xf pdf -o sample.pdf sample.drawio
+        run: drawio -x -f pdf -o sample.pdf sample.drawio
 
