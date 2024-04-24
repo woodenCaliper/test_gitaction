@@ -28,4 +28,4 @@ jobs:
       - name: Run Python
         run: python .github/test.py
       
-      - run: sudo apt -y install snapd
+      - run: apt -y install snapd
